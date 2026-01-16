@@ -32,15 +32,18 @@ export default function KapcsolatPage() {
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{
-              backgroundImage: "url('/flower-shop-contact-beautiful-storefront.jpg')",
+              backgroundImage: "url('kapcsolat-banner.jpg')",
             }}
           >
             <div className="absolute inset-0 bg-background/70" />
           </div>
+          
 
           <div className="relative z-10 text-center px-4">
-            <h1 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-4">Kapcsolat</h1>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <h1 className="animate-title-reveal font-serif text-4xl md:text-5xl font-bold text-foreground mb-4">
+              Kapcsolat
+            </h1>
+            <p className="animate-text-slide animation-delay-400 text-lg text-muted-foreground max-w-2xl mx-auto">
               Várjuk szeretettel minden kedves vásárlónkat
             </p>
           </div>

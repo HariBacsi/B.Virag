@@ -15,20 +15,20 @@ export default function Home() {
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('/beautiful-fresh-spring-flowers-bouquet-pink-roses-.jpg')",
+            backgroundImage: "url('Fooldal.jpg')",
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-b from-background/20 via-background/40 to-background/80" />
         </div>
 
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-          <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 text-balance">
+          <h1 className="animate-title-reveal font-serif text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 text-balance">
             Természet szépsége, virágok varázsa
           </h1>
-          <p className="text-lg md:text-xl text-foreground/80 mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="animate-text-slide animation-delay-400 text-lg md:text-xl text-foreground/80 mb-8 max-w-2xl mx-auto leading-relaxed">
             Friss szálas virágok, cserepes növények és virágkellékek széles választéka egy helyen
           </p>
-          <Button asChild size="lg" className="text-base px-8">
+          <Button asChild size="lg" className="text-base px-8 animate-card-reveal animation-delay-600">
             <Link href="/kapcsolat">
               Lépj kapcsolatba
               <ArrowRight className="ml-2 h-5 w-5" />

@@ -51,15 +51,17 @@ export default function SzolgaltatasokPage() {
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{
-              backgroundImage: "url('/florist-arranging-beautiful-bouquet-workshop.jpg')",
+              backgroundImage: "url('szolgaltatasok-banner.jpg')",
             }}
           >
             <div className="absolute inset-0 bg-background/70" />
           </div>
 
           <div className="relative z-10 text-center px-4">
-            <h1 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-4">Szolgáltatásaink</h1>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <h1 className="animate-title-reveal font-serif text-4xl md:text-5xl font-bold text-foreground mb-4">
+              Szolgáltatásaink
+            </h1>
+            <p className="animate-text-slide animation-delay-400 text-lg text-muted-foreground max-w-2xl mx-auto">
               Egyedi virágkompozíciók minden élethelyzetre
             </p>
           </div>

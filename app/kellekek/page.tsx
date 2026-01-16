@@ -5,76 +5,220 @@ import { Card } from "@/components/ui/card"
 export default function KellekekPage() {
   const kellekek = [
     {
-      name: "Üveg vázák",
-      description: "Különböző méretekben",
+      name: "Rezgő",
+      description: "Szöveg",
       image: "glass+vases+clear+elegant+various+sizes",
-      category: "Váza",
+      category: "Tömő",
     },
     {
-      name: "Kerámia vázák",
-      description: "Színes dizájnok",
+      name: "Borostyán",
+      description: "Szövegk",
       image: "ceramic+vases+colorful+modern+design",
-      category: "Váza",
+      category: "Tömő",
     },
     {
-      name: "Szatén szalagok",
-      description: "Pasztell árnyalatok",
+      name: "Banánlevél",
+      description: "Szöveg",
       image: "satin+ribbons+pastel+colors+rolls",
-      category: "Szalag",
+      category: "Tömő",
     },
     {
-      name: "Csipke szalagok",
-      description: "Romantikus stílus",
+      name: "Robellini",
+      description: "Szöveg",
       image: "lace+ribbons+white+romantic+wedding",
-      category: "Szalag",
+      category: "Tömő",
     },
     {
-      name: "Kreatív csomagolópapír",
-      description: "Virágmintás",
+      name: "Rumóra",
+      description: "Szöveg",
       image: "floral+wrapping+paper+patterns+colorful",
-      category: "Csomagolás",
+      category: "Tömő",
     },
     {
-      name: "Natúr csomagolópapír",
-      description: "Öko-barát",
+      name: "Eukaliptusz",
+      description: "Szöveg",
       image: "kraft+paper+natural+eco+friendly+wrapping",
-      category: "Csomagolás",
+      category: "Tömő",
     },
     {
-      name: "Dekor kavicsok",
-      description: "Különleges színek",
+      name: "Orchidea",
+      description: "Szöveg",
       image: "decorative+pebbles+colorful+vase+filler",
-      category: "Díszek",
+      category: "Kicsi tápoldat",
     },
     {
-      name: "Gyöngyök",
-      description: "Elegáns kiegészítők",
+      name: "Általános",
+      description: "Szöveg",
       image: "pearl+beads+white+elegant+decoration",
-      category: "Díszek",
+      category: "Kicsi tápoldat",
     },
     {
-      name: "Dekor tollak",
-      description: "Extra részletek",
+      name: "Muskátli",
+      description: "Szöveg",
       image: "decorative+feathers+soft+pastel+floral",
-      category: "Díszek",
+      category: "Kicsi tápoldat",
     },
     {
-      name: "Virágkötő szalag",
-      description: "Profi eszköz",
+      name: "Balkon növény",
+      description: "Szöveg",
       image: "floral+tape+green+professional+tool",
-      category: "Eszköz",
+      category: "Kicsi tápoldat",
     },
     {
-      name: "Virágkötő drót",
-      description: "Különböző vastagságok",
+      name: "Kaktusz",
+      description: "Szöveg",
       image: "floral+wire+various+thickness+arranging",
-      category: "Eszköz",
+      category: "Kicsi tápoldat",
     },
     {
-      name: "Virágszivacs",
-      description: "Tökéletes tartás",
+      name: "Bonsai",
+      description: "Szöveg",
       image: "floral+foam+green+oasis+arrangement",
-      category: "Eszköz",
+      category: "Kicsi tápoldat",
+    },
+        {
+      name: "Virágzásinditó",
+      description: "Szöveg",
+      image: "glass+vases+clear+elegant+various+sizes",
+      category: "Kicsi tápoldat",
+    },
+    {
+      name: "Levél-dísznövény",
+      description: "Szövegk",
+      image: "ceramic+vases+colorful+modern+design",
+      category: "Kicsi tápoldat",
+    },
+    {
+      name: "Citrus",
+      description: "Szöveg",
+      image: "satin+ribbons+pastel+colors+rolls",
+      category: "Kicsi tápoldat",
+    },
+    {
+      name: "Robellini",
+      description: "Szöveg",
+      image: "lace+ribbons+white+romantic+wedding",
+      category: "Közepes tápoldat",
+    },
+    {
+      name: "Orchidea",
+      description: "Szöveg",
+      image: "floral+wrapping+paper+patterns+colorful",
+      category: "Közepes tápoldat",
+    },
+    {
+      name: "Muskátli",
+      description: "Szöveg",
+      image: "kraft+paper+natural+eco+friendly+wrapping",
+      category: "Közepes tápoldat",
+    },
+    {
+      name: "Általános",
+      description: "Szöveg",
+      image: "decorative+pebbles+colorful+vase+filler",
+      category: "Nagy tápoldat",
+    },
+    {
+      name: "Növénytisztitópermet",
+      description: "Szöveg",
+      image: "pearl+beads+white+elegant+decoration",
+      category: "Spray",
+    },
+    {
+      name: "Szobanövény",
+      description: "Szöveg",
+      image: "decorative+feathers+soft+pastel+floral",
+      category: "Táprúd",
+    },
+    {
+      name: "Levél és zöldnövény",
+      description: "Szöveg",
+      image: "floral+tape+green+professional+tool",
+      category: "Táprúd",
+    },
+    {
+      name: "Integrált papír kalap (virágtartó)",
+      description: "Szöveg",
+      image: "floral+wire+various+thickness+arranging",
+      category: "Kicsi kerámia és műanyag cserép",
+    },
+    {
+      name: "integrált papír kalap (virágtartó)",
+      description: "Szöveg",
+      image: "floral+foam+green+oasis+arrangement",
+      category: "Közepes kerámia és műanyag cserép",
+    },
+    {
+      name: "integrált papír kalap (virágtartó)",
+      description: "Szöveg",
+      image: "floral+foam+green+oasis+arrangement",
+      category: "Nagy kerámia és műanyag cserép",
+    },
+      {
+      name: "Névvel ellátott törölközők",
+      description: "Szöveg",
+      image: "floral+wire+various+thickness+arranging",
+      category: "Törölköző",
+    },
+    {
+      name: "Díszdoboz",
+      description: "Szöveg",
+      image: "floral+foam+green+oasis+arrangement",
+      category: "Különböző méretben",
+    },
+    {
+      name: "Orchideahajó",
+      description: "Szöveg",
+      image: "floral+foam+green+oasis+arrangement",
+      category: "Csónak alakú virágtartó",
+    },
+    {
+      name: "Kis fatábla",
+      description: "Szöveg",
+      image: "floral+foam+green+oasis+arrangement",
+      category: "Feliratos/számos",
+    },
+    {
+      name: "Általános",
+      description: "Szöveg",
+      image: "floral+foam+green+oasis+arrangement",
+      category: "Virágföld",
+    },
+      {
+      name: "Orchidea",
+      description: "Szöveg",
+      image: "floral+wire+various+thickness+arranging",
+      category: "Virágföld",
+    },
+    {
+      name: "Kaktusz",
+      description: "Szöveg",
+      image: "floral+foam+green+oasis+arrangement",
+      category: "Virágföld",
+    },
+    {
+      name: "Tőzeg",
+      description: "Szöveg",
+      image: "floral+foam+green+oasis+arrangement",
+      category: "Virágföld",
+    },
+    {
+      name: "Művirág",
+      description: "Szöveg",
+      image: "floral+foam+green+oasis+arrangement",
+      category: "Szálas, Csokros",
+    },
+    {
+      name: "Integrált díszvirágtároló",
+      description: "Szöveg",
+      image: "floral+foam+green+oasis+arrangement",
+      category: "Virágtároló",
+    },
+    {
+      name: "Szalag",
+      description: "Szöveg",
+      image: "floral+foam+green+oasis+arrangement",
+      category: "Beküldött szöveg alapján készített",
     },
   ]
 
@@ -95,8 +239,10 @@ export default function KellekekPage() {
           </div>
 
           <div className="relative z-10 text-center px-4">
-            <h1 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-4">Kellékek</h1>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <h1 className="animate-title-reveal font-serif text-4xl md:text-5xl font-bold text-foreground mb-4">
+              Kellékek
+            </h1>
+            <p className="animate-text-slide animation-delay-400 text-lg text-muted-foreground max-w-2xl mx-auto">
               Minden, amire szükséged lehet a tökéletes virágdekorációhoz
             </p>
           </div>

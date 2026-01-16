@@ -5,16 +5,22 @@ import { Card } from "@/components/ui/card"
 export default function ViragokPage() {
   const szalasViragok = [
     { name: "Gerbera", description: "Vidám színek", image: "gerbera.jpg" },
-    { name: "Rózsa", description: "Klasszikus szépség", image: "rozsa.jpg" },
+    { name: "Király liliom", description: "Klasszikus szépség", image: "kliliom.jpg" },
     { name: "Liliom", description: "Elegáns illat", image: "liliom.jpg" },
     { name: "Szegfű", description: "Tartós frissesség", image: "szegfu.jpg" },
     { name: "Szellő rózsa", description: "Romantikus báj", image: "szello_rozsa.jpg" },
     { name: "Tulipán", description: "Tavaszi szépség", image: "tulipan.jpg" },
+    { name: "Inkaliliom", description: "Vázák királynője", image: "ililiom.jpg" },
   ]
 
   const cserepesNovenyek = [
     { name: "Rózsa", description: "Tartós szépség", image: "potted_rozsa.jpg" },
     { name: "Orchidea", description: "Elegáns virágzat", image: "potted_orchidea.jpg" },
+    { name: "Ciklámen", description: "Az elegáns téli dísz", image: "potted_ciklamen.jpg" },
+    { name: "Flamingó virág", description: "Az egzotikus fényes kedvenc", image: "potted_flamingo.jpg" },
+    { name: "Korál", description: "A strapabíró pozsgás", image: "potted_koral.jpg" },
+    { name: "Legényfogó pálma", description: "A pusztíthatatlan", image: "potted_legenyfogo.jpg" },
+    { name: "Yucca pálma", description: "A sivatagi harcos", image: "potted_yucca.jpg" },
   ]
 
   return (
@@ -27,17 +33,21 @@ export default function ViragokPage() {
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{
-              backgroundImage: "url('/flower-shop-interior-beautiful-flowers.jpg')",
+              backgroundImage: "url('virag-banner.jpg')",
             }}
           >
             <div className="absolute inset-0 bg-background/70" />
           </div>
 
           <div className="relative z-10 text-center px-4">
-            <h1 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-4">Virágaink</h1>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+             <div className="relative z-10 text-center px-4">
+            <h1 className="animate-title-reveal font-serif text-4xl md:text-5xl font-bold text-foreground mb-4">
+              Virágaink
+            </h1>
+            <p className="animate-text-slide animation-delay-400 text-lg text-muted-foreground max-w-2xl mx-auto">
               Friss vágott virágok és cserepes növények kedvező áron
             </p>
+          </div>
           </div>
         </section>
 
@@ -76,7 +86,7 @@ export default function ViragokPage() {
               Tartós növények otthonodba vagy ajándékba megfizethető áron. Gondozási tanácsokkal.
             </p>
 
-            <div className="grid grid-cols-2 md:grid-cols-2 gap-4 md:gap-6 max-w-2xl mx-auto">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
               {cserepesNovenyek.map((noveny, index) => (
                 <Card key={index} className="overflow-hidden group hover:shadow-lg transition-shadow">
                   <div

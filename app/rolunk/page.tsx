@@ -13,15 +13,17 @@ export default function RolunkPage() {
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{
-              backgroundImage: "url('/flower-shop-interior-cozy-welcoming.jpg')",
+              backgroundImage: "url('rolunk-banner.jpg')",
             }}
           >
             <div className="absolute inset-0 bg-background/70" />
           </div>
 
           <div className="relative z-10 text-center px-4">
-            <h1 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-4">Rólunk</h1>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <h1 className="animate-title-reveal font-serif text-4xl md:text-5xl font-bold text-foreground mb-4">
+              Rólunk
+            </h1>
+            <p className="animate-text-slide animation-delay-400 text-lg text-muted-foreground max-w-2xl mx-auto">
               Szenvedély, tapasztalat és szeretet minden virágban
             </p>
           </div>
@@ -37,12 +39,12 @@ export default function RolunkPage() {
                 <div
                   className="aspect-[4/3] bg-cover bg-center rounded-lg"
                   style={{
-                    backgroundImage: "url('/tulajdonos.jpg')",
+                    backgroundImage: "url('rolunk1.jpg')",
                   }}
                 />
                 <div className="space-y-4">
                   <p className="text-muted-foreground leading-relaxed">
-                    A Beavirág több mint 10 éve szolgálja ki szerető ügyfélbázisát a legfrissebb és legszebb virágokkal.
+                    A Beavirág több mint 20 éve szolgálja ki szerető ügyfélbázisát a legfrissebb és legszebb virágokkal.
                     Családi vállalkozásként indultunk, és azóta is ugyanazzal a szenvedéllyel dolgozunk minden egyes
                     csokron.
                   </p>
@@ -108,7 +110,7 @@ export default function RolunkPage() {
                 </div>
                 <h3 className="font-semibold text-lg">Tapasztalat</h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
-                  10+ év szakmai tudás és számos elégedett ügyfél
+                  20+ év szakmai tudás és számos elégedett ügyfél
                 </p>
               </div>
 

@@ -1,6 +1,7 @@
 "use client"
 
 import Link from "next/link"
+import Image from "next/image"
 import { useState } from "react"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -21,8 +22,12 @@ export function Navigation() {
     <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-sm z-50 border-b border-border">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
-          <Link href="/" className="font-serif text-2xl md:text-3xl font-bold text-primary">
-            Beavirág
+          <Link href="/" className="flex items-center gap-3">
+            <div className="relative h-16 w-40 md:h-20 md:w-52">
+              <Image src="/logo.png" alt="Beavirág logó" fill className="object-contain" priority />
+            </div>
+            <span className="font-serif text-xl md:text-2xl font-bold text-primary">Beavirág</span>
+            
           </Link>
 
           {/* Desktop Navigation */}
