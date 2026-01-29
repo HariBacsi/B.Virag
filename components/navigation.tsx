@@ -12,7 +12,6 @@ export function Navigation() {
   const navItems = [
     { href: "/", label: "Főoldal" },
     { href: "/viragok", label: "Virágok" },
-    { href: "/kellekek", label: "Kellékek" },
     { href: "/szolgaltatasok", label: "Szolgáltatások" },
     { href: "/rolunk", label: "Rólunk" },
     { href: "/kapcsolat", label: "Kapcsolat" },

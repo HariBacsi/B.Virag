@@ -25,8 +25,11 @@ export default function Home() {
           <h1 className="animate-title-reveal font-serif text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 text-balance">
             Természet szépsége, virágok varázsa
           </h1>
-          <p className="animate-text-slide animation-delay-400 text-lg md:text-xl text-foreground/80 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Friss szálas virágok, cserepes növények és virágkellékek széles választéka egy helyen
+          <p className="animate-text-slide animation-delay-400 text-lg md:text-xl text-foreground/80 mb-8 max-w-2xl mx-auto leading-relaxed" style={{fontWeight:"bolder", backgroundColor:"rgba(255, 255,255,0.25)",padding:"4px", borderRadius:"16px"}}>
+            Minőségi virágok és növények – minden, amire egy tökéletes kompozícióhoz szükség van.
+          </p>
+          <p className="animate-text-slide animation-delay-400 text-lg md:text-xl text-foreground/80 mb-8 max-w-2xl mx-auto leading-relaxed" style={{fontWeight:"bolder", backgroundColor:"rgba(231, 130, 223,0.75)",padding:"4px", borderRadius:"16px"}}>
+            Rendelésfelvétel: ❤️ Valentin-nap (02.14.) 🌷 Nőnap (03.08.)
           </p>
           <Button asChild size="lg" className="text-base px-8 animate-card-reveal animation-delay-600">
             <Link href="/kapcsolat">

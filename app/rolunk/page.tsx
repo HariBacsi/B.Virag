@@ -64,7 +64,7 @@ export default function RolunkPage() {
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
                     Büszkék vagyunk arra, hogy az évek során számos esküvőn, születésnapon és különleges alkalmon
-                    lehettünk részesek virágainkkal. Köszönjük bizalmukat!
+                    lehettünk részesek virágainkkal. Köszönjük bizalmukat, és szeretettel várjuk továbbra is önöket!
                   </p>
                 </div>
                 <div

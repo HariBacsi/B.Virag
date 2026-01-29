@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Phone } from "lucide-react"
+import { Phone, Mail } from "lucide-react"
 
 export function Footer() {
   return (
@@ -36,7 +36,7 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Contact - Updated phone number and removed email */}
+
           <div className="space-y-4">
             <h4 className="font-semibold text-foreground">Elérhetőség</h4>
             <ul className="space-y-3 text-sm">
@@ -44,6 +44,12 @@ export function Footer() {
                 <Phone className="h-4 w-4 text-primary" />
                 <a href="tel:06304739147" className="hover:text-primary transition-colors">
                   06 30 473 9147
+                </a>
+              </li>
+              <li className="flex items-center gap-2 text-muted-foreground">
+                <Mail className="h-4 w-4 text-primary" />
+                <a href="email:kecsbea@gmail.com" className="hover:text-primary transition-colors">
+                  kecsbea@gmail.com
                 </a>
               </li>
             </ul>

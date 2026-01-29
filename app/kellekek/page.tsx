@@ -1,4 +1,4 @@
-import { Navigation } from "@/components/navigation"
+/* import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { Card } from "@/components/ui/card"
 
@@ -227,7 +227,8 @@ export default function KellekekPage() {
       <Navigation />
 
       <main className="mt-16 md:mt-20">
-        {/* Hero */}
+        {/* Hero */
+        /*}
         <section className="relative h-[40vh] flex items-center justify-center">
           <div
             className="absolute inset-0 bg-cover bg-center"
@@ -248,7 +249,8 @@ export default function KellekekPage() {
           </div>
         </section>
 
-        {/* Kellékek */}
+        {/* Kellékek */
+        /*}
         <section className="py-16 md:py-24 bg-background">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
@@ -270,4 +272,4 @@ export default function KellekekPage() {
       <Footer />
     </>
   )
-}
+}*/

@@ -17,7 +17,7 @@ export default function SzolgaltatasokPage() {
       icon: Church,
       title: "Esküvői dekoráció",
       description:
-        "Teljes körű esküvői virágdíszítés: menyasszonyi csokor, vőlegény kitűző, asztaldíszek, templomi és terembérlés. Álmaid esküvőjéhez tervezünk.",
+        "Teljes körű esküvői virágdíszítés: menyasszonyi csokor, vőlegény kitűző, asztaldíszek, szülőköszöntő csokor. Álmaid esküvőjéhez hozzájárulunk virágkompoziciónkkal.",
       image: "/wedding-wreath-beautiful-elegant.jpg",
       hasImage: true,
     },
@@ -25,7 +25,7 @@ export default function SzolgaltatasokPage() {
       icon: Flower2,
       title: "Temetési koszorúk",
       description:
-        "Méltó búcsúztatáshoz elegáns koszorúk, sírdíszek és emlékezés virágai. Tisztelettel és tapintattal állítjuk össze a legszebb kompozíciókat.",
+        "Méltó búcsúztatáshoz elegáns koszorúk, sírdíszek és kegyeleti virágok. Tisztelettel és tapintattal állítjuk össze a legszebb kompozíciókat.",
       image: "/funeral-wreath-sad-respectful.jpg",
       hasImage: true,
       isCenter: true,

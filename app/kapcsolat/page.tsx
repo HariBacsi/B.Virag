@@ -4,13 +4,13 @@ import type React from "react"
 
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
-import { MapPin, Phone, Clock } from "lucide-react"
+import { MapPin, Phone, Clock, Mail } from "lucide-react"
 import { useState } from "react"
 
 export default function KapcsolatPage() {
   const [formData, setFormData] = useState({
     name: "",
-    email: "",
+    email: "kecsbea@gmail.com",
     phone: "",
     message: "",
   })
@@ -75,7 +75,7 @@ export default function KapcsolatPage() {
                           </p>
                         </div>
                       </div>
-
+                      <div className="flex gap-17">
                       <div className="flex items-start gap-4">
                         <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                           <Phone className="h-5 w-5 text-primary" />
@@ -90,7 +90,22 @@ export default function KapcsolatPage() {
                           </a>
                         </div>
                       </div>
+                      <div className="flex items-start gap-4">
+                        <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                          <Mail className="h-5 w-5 text-primary" />
+                        </div>
+                        <div>
+                          <h3 className="font-semibold mb-1">Email</h3>
+                          <a
+                            href="mailto:kecsbea@gmail.com"
+                            className="text-muted-foreground hover:text-primary transition-colors"
+                          >
+                            kecsbea@gmail.com
 
+                          </a>
+                        </div>
+                      </div>
+                  </div>
                       <div className="flex items-start gap-4">
                         <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
                           <Clock className="h-5 w-5 text-primary" />
@@ -135,7 +150,7 @@ export default function KapcsolatPage() {
                 </div>
               </div>
 
-              <div className="bg-primary/5 rounded-lg p-8 space-y-4 max-w-4xl mx-auto">
+              <div style={{borderRadius:"16px"}} className="bg-secondary/30 rounded-lg p-8 space-y-4 max-w-4xl mx-auto" >
                 <h3 className="font-serif text-2xl font-semibold text-foreground">
                   Látogasson el hozzánk személyesen!
                 </h3>
